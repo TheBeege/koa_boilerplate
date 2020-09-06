@@ -1,0 +1,33 @@
+{
+  "name": "koa_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for setting up koa-based projects quickly. Complete with Dockerfile and other metaprogramming goodness.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node src/index.js",
+    "prod": "NODE_ENV=production node src/index.js",
+    "test": "jest",
+    "build": "docker build ."
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.14.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBeege/koa_boilerplate.git"
+  },
+  "author": "Bryan \"Beege\" Berry",
+  "contributors": [
+    "Bryan \"Beege\" Berry"
+  ],
+  "private": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBeege/koa_boilerplate/issues"
+  },
+  "homepage": "https://github.com/TheBeege/koa_boilerplate#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
